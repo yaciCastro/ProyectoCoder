@@ -92,7 +92,8 @@ footer{
     font-size: 15px;
     display: flex;
     justify-content: space-around;
-    margin: 20px;
+    margin-left: 50%;
+    margin-right: 50%;
 }
 
 .header__logo--animacion{
@@ -146,3 +147,4 @@ section.section__grid--card{
         filter: opacity(.5);
     }
 }
+
