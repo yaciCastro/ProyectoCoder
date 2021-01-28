@@ -27,89 +27,92 @@
 
 		<!-- NAVBAR-->
 		<nav class="navbar navbar-expand-lg navbar-light bg-white">
-			
 			<a class="navbar-brand" href="#"></a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" 
+					data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+					aria-expanded="false" aria-label="Toggle navigation">
 			  <span class="navbar-toggler-icon"></span>
 			</button>
-			
-			<div class="collapse navbar-collapse" id="navbarNavDropdown">
-			  
-				<ul class="navbar-nav">
-					<li class="nav-item active">
-					  <a class="titulo__secundario--formato" href="index.html"> inicio </a>
-					</li>
-					<li class="nav-item active">
-				 	 	<a class="titulo__secundario--formato" href="servicios.html"> servicios </a>
-					</li>
-					<li class="nav-item active">
-					  <a class="titulo__secundario--formato" href="productos.html"> productos </a>
-					</li>
-					<li class="nav-item dropdown active">
-						<a class="titulo__secundario--formato" href="contacto.html"> contacto </a>
-					</li>
-				</ul>
+		  
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			  <ul class="navbar-nav mr-auto">
+				<li class="nav-item" >
+				  <a class="nav-link titulo__secundario--formato" href="index.html">inicio <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link titulo__secundario--formato " href="servicios.html">servicios</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link titulo__secundario--formato"  href="productos.html">productos</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link titulo__secundario--formato"  href="contacto.html">contacto</a>
+				</li>
 			</div>
 		</nav>
 
 		<!--CONTENIDO-->
 		<h2 class="titulo__formato">CONTACTO</h2>
-		<iframe id="iframe__mapa--responsive" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d27235.981154078512!2d-64.20698050000001!3d-31.427964099999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1608760639845!5m2!1ses-419!2sar" width="1650" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-		
-		<section class="conteiner">
-			<form>
-				<div class="form-group">
-			  		<label for="exampleFormControlInput1">Email address</label>
-			  		<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-				</div>
-				<div>
-			  		<label>Example select</label>
-			  		<select class="form-control" >
-						<option>1</option>
-			  		</select>
-				</div>
-				<div class="form-group">
-			  		<label for="exampleFormControlSelect2">Example multiple select</label>
-			  		<select multiple class="form-control" id="exampleFormControlSelect2">
-						<option>1</option>
-					</select>
-				</div>
-				<div class="form-group">
-			  		<label for="exampleFormControlTextarea1">Example textarea</label>
-			  		<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-				</div>
-		  	</form>
-		</section>
-		  
-		<!--CONTENIDO-->
-		<!--	
-		<h2 class="titulo__formato">CONTACTO</h2>
-		<iframe id="iframe__mapa--responsive" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d27235.981154078512!2d-64.20698050000001!3d-31.427964099999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1608760639845!5m2!1ses-419!2sar" width="1650" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-		
-		<div id="formulario__formato" style="text-align: center;">
-			<form>			
-				<h2 class="titulo__formato"> PARA COMUNICARTE CON NOSOTROS</h2>
-				<h4 class="titulo__formato">Ingrese su nombre:</h4>
-				<input type="name" name="nombre">
-		
-				<h4 class="titulo__formato">Ingrese su apellido:</h4>
-				<input type="apellido" name="apellido">
-
-				<h4 class="titulo__formato">Ingrese su email:</h4>
-				<input type="email" name="email"><br>
-				<br>
-
-				<h4 class="titulo__formato">Comentario:</h4>
-				<textarea name="comentarios"></textarea><br>
-				<input type="submit" value="Enviar">
-				<input type="reset" name="borrar" value="Borrar"><br>
-				<br>
-				
-			</form>
+		<div class="contacto__iframe--responsivo">
+			<iframe class="iframe__mapa--responsivo" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d27235.981154078512!2d-64.20698050000001!3d-31.427964099999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1608760639845!5m2!1ses-419!2sar"  frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 		</div>
-		-->
+
+		<div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="well well-sm">
+						<form class="form-horizontal" method="post">
+							<fieldset>
+								
+
+								<div class="form-group">
+									<span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+									<div class="col-md-8">
+										<input id="fname" name="name" type="text" placeholder="Nombre" class="form-control">
+									</div>
+								</div>
+								<div class="form-group">
+									<span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+									<div class="col-md-8">
+										<input id="lname" name="name" type="text" placeholder="Apellido" class="form-control">
+									</div>
+								</div>
+		
+								<div class="form-group">
+									<span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-o bigicon"></i></span>
+									<div class="col-md-8">
+										<input id="email" name="email" type="text" placeholder="Email" class="form-control">
+									</div>
+								</div>
+		
+								<div class="form-group">
+									<span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-phone-square bigicon"></i></span>
+									<div class="col-md-8">
+										<input id="phone" name="phone" type="text" placeholder="Telefono" class="form-control">
+									</div>
+								</div>
+		
+								<div class="form-group">
+									<span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-pencil-square-o bigicon"></i></span>
+									<div class="col-md-8">
+										<textarea class="form-control" id="message" name="message" placeholder="Comentario" rows="7"></textarea>
+									</div>
+								</div>
+		
+								<div class="form-group">
+									<div class="col-md-12">
+										<button type="submit" class="btn btn-outline-dark btn-lg">Submit</button>
+									</div>
+								</div>
+							</fieldset>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+
 		<!--PIE DE PAGINA -->
-		<footer id="footer"> 
+		<footer class="footer"> 
 			<ul>
 				<li><a href="https://www.facebook.com/"><img src= "assets/img/facebook.png"></a></li>
 				<li><a href="https://twitter.com/"><img src="assets/img/twitter.png"></a></li>
