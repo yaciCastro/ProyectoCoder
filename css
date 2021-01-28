@@ -76,20 +76,6 @@ footer ul {
 .grid__imagen--hover:hover {
   filter: opacity(0.5); }
 
-.navbar__
-.iframe--responsivo {
-  position: relative;
-  overflow: hidden;
-  padding-top: 56.25%; }
-
-.iframe__mapa--responsivo {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border: 0; }
-
 .servicios__card--texto {
   color: #B336A6;
   font-family: 'Rajdhani', sans-serif;
