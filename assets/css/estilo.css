@@ -39,8 +39,7 @@ footer ul {
   color: #B336A6;
   font-family: 'Rajdhani', sans-serif;
   font-size: 27px;
-  text-align: justify;
-  margin: 10px; }
+  text-align: justify;}
 
 .titulo__secundario--formato nav ul li a {
   border-color: #B336A6;
@@ -50,10 +49,8 @@ footer ul {
   color: #B336A6;
   font-family: 'Rajdhani', sans-serif;
   font-size: 15px;
-  display: flex;
-  justify-content: space-around;
   margin-left: 50%;
-  margin-right: 50%; }
+  margin-right: 50%;}
 
 .section__grid--card {
   display: grid;
@@ -93,3 +90,7 @@ footer ul {
   font-family: 'Rajdhani', sans-serif;
   font-size: 17px;
 }
+
+.formulario__posicion {
+  display: flex;
+  justify-content: center;
