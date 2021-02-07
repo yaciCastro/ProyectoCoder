@@ -24,6 +24,12 @@ footer ul {
   font-family: 'Rajdhani', sans-serif;
   margin: 30px; }
 
+
+.navBar__titulo--formato {
+  color: #B336A6;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 23px; }
+
 .imagen__posicion {
   float: left;
   padding: 20px;
@@ -76,8 +82,14 @@ footer ul {
 .grid__imagen--hover:hover {
   filter: opacity(0.5); }
 
-.servicios__card--texto {
+.servicios__card--texto{
   color: #B336A6;
   font-family: 'Rajdhani', sans-serif;
-  font-size: 15px;
-  text-align: justify; }
+  font-size: 20px;
+}
+
+.servicios__card--subTexto{
+  color: #B336A6;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 17px;
+}

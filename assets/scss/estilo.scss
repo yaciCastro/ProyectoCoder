@@ -10,6 +10,7 @@ $breakpoint-md: 992px;
 //Tabletas y computadoras de escritorio 
 $breakpoint-lg: 1200px;
 
+
 header{
     
     div{
@@ -20,23 +21,6 @@ header{
             color: #B336A6;
             font-family: 'Rajdhani', sans-serif;
             margin: 30px;
-        }
-    }
-}
-
-footer{
-    
-    ul{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        list-style:none;
-        margin:0;
-        padding:0;
-        background-image: linear-gradient(#FDD2F6, #FFFFFF);
-
-        li{
-            padding: 10px 10px;
         }
     }
 }
@@ -122,9 +106,31 @@ footer{
     }
 }
 
+.navBar__titulo--hover{
+    &:hover{
+        color: #F8D0FC;
+    }
+}
+
 .servicios__card--texto{
     color: #B336A6;
     font-family: 'Rajdhani', sans-serif;
     font-size: 15px;
     text-align: justify;
 }
+
+.servicios__card--subTexto{
+    color: #B336A6;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 12px;
+    text-align: justify;
+}
+
+.navBar__titulo--formato {
+    color: #B336A6;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 23px; }
+
+
+
+
