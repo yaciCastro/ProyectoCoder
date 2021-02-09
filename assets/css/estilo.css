@@ -52,7 +52,6 @@ footer ul {
   margin: 10px;
 }
  
-
 .section__grid--card {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -107,4 +106,9 @@ footer ul {
   color: #B336A6;
   font-family: 'Rajdhani', sans-serif;
   font-size: 22px
+}
+
+.carusel__posicion{
+  display: flex;
+  justify-content: center;
 }
