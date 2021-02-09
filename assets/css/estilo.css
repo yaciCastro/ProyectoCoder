@@ -45,12 +45,13 @@ footer ul {
   border-color: #B336A6;
   font-family: 'Rajdhani', sans-serif; }
 
-.formulario__formato {
+.formulario__formato--texto {
   color: #B336A6;
   font-family: 'Rajdhani', sans-serif;
-  font-size: 15px;
-  margin-left: 50%;
-  margin-right: 50%;}
+  font-size: 20px;
+  margin: 10px;
+}
+ 
 
 .section__grid--card {
   display: grid;
@@ -94,3 +95,16 @@ footer ul {
 .formulario__posicion {
   display: flex;
   justify-content: center;
+}
+
+.carusel__producto--descripcion{
+  color: #B336A6;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 19px
+}
+
+.carrusel__produtco--precio{
+  color: #B336A6;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 22px
+}
