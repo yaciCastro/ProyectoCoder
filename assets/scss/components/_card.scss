@@ -1,0 +1,20 @@
+
+.card__imagen{
+    &:hover{
+        filter: opacity(.5);
+    }
+}
+
+.card-textoPrimario{
+    color: #B336A6;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.card-textoSecundario{
+    color: #B336A6;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 12px;
+    text-align: justify;
+}

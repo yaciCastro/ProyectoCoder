@@ -8,7 +8,7 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Anton&family=Rajdhani&family=Roboto&display=swap" rel="stylesheet">
 	<!-- MIS ESTILOS CSS -->
-	<link rel="stylesheet" type="text/css" href="assets/css/estilo.css">
+	<link rel="stylesheet" type="text/css" href="../assets/css/estilo.css">
 	<!--BOOTSTRAP-->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 	<meta name= "descripcion" content= "Ofrecemos productos y servicios de cuidado de cejas y pestañas">	
@@ -19,7 +19,7 @@
 		<header>
 			<div>
 				<h1 class="titulo"><strong>
-					<img src= "assets/img/logo.png" width="50px" >Cute.Lashes.Eyebrows
+					<img src= "../assets/img/logo.png" width="50px" >Cute.Lashes.Eyebrows
 				</strong></h1>
 
 			</div>
@@ -27,7 +27,7 @@
 
 		<!-- NAVBAR-->
 		<nav class="navbar navbar-expand-lg navbar-light bg-white">
-			<a class="navbar-brand" href="#"></a>
+			<a class="navbar-brand"></a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" 
 					data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
 					aria-expanded="false" aria-label="Toggle navigation">
@@ -36,36 +36,35 @@
 		  
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav mr-auto" >
-					<li class="nav-item" class="titulo__secundario--formato">
-						<a class="nav-link" href="index.html"> <span class="sr-only">(current)</span><p  class="navBar__titulo--formato"><strong>Inicio </strong></p></a>
+					<li class="nav-item">
+						<a class="nav-link" href="../index.html"> <span class="sr-only">(current)</span><p  class="navBar__titulo"><strong>Inicio </strong></p></a>
 					</li>
 					<li class="nav-item">
-				  		<a class="nav-link titulo__secundario--formato " href="servicios.html"> <p class="navBar__titulo--formato"><strong>Servicios</strong></p></a>
+				  		<a class="nav-link" href="servicios.html"> <p class="navBar__titulo"><strong>Servicios</strong></p></a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link titulo__secundario--formato"  href="productos.html"> <p class="navBar__titulo--formato"><strong>Productos </strong></p></a>
+						<a class="nav-link"  href="productos.html"> <p class="navBar__titulo"><strong>Productos </strong></p></a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link titulo__secundario--formato"  href="contacto.html"> <p class="navBar__titulo--formato"><strong>Contactos </strong></p></a>
+						<a class="nav-link"  href="contacto.html"> <p class="navBar__titulo"><strong>Contactos </strong></p></a>
 					</li>
 				</ul>
 			</div>
 		</nav>
 		
 		<!--CONTENIDO-->
-		<h2 class="titulo__formato" > <strong> SERVICIOS</strong></h2>
-
 		<section>
-			<div class="container" class="section__grid--card">	
+			<h2 class="titulo" > <strong> SERVICIOS</strong></h2>
+			<div class="container">	
 				<meta name="keywords" content="visage, cejas, diseño cejas">		
 		  		<div class="row row-cols-1 row-col s-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5">
 					
 					<div class="col mb-4">
 			  			<div class="card">
-							<img  class="grid__imagen--hover" src="assets/img/diseño y perf cejas.jpg" alt="Card image cap1">
-  							<div class="card-body" class="servicios__card--texto">
-    							<h5 class="servicios__card--texto"	> <strong> Diseño de cejas </strong></h5>
-    							<p class="servicios__card--subTexto">Duracion: 30min.</p>
+							<img  class="card__imagen" src="../assets/img/diseño y perf cejas.jpg" alt="Card image cap1">
+  							<div class="card-body" class="card-textoPrimario">
+    							<h5 class="card-textoPrimario"	> <strong> Diseño de cejas </strong></h5>
+    							<p class="card-textoSecundario">Duracion: 30min.</p>
     							
 								<!-- Button trigger modal -->
 								<button type="button" class="btn  btn-outline-dark" data-bs-toggle="modal" data-bs-target="#diseñoCejas">
@@ -77,13 +76,13 @@
 									<div class="modal-dialog" role="document">
 	  									<div class="modal-content">
 											<div class="modal-header">
-		 										<h4 class="titulo__formato" id="exampleModalLabel"><strong>Diseño de cejas </strong></h4>
+		 										<h4 class="card-textoPrimario" id="exampleModalLabel"><strong>Diseño de cejas </strong></h4>
 		  										<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 											</div>
 											<div class="modal-body">
 												<div class="alert alert-sucess">
 													<div> 
-														<p class="texto__formato">Duracion 30. El diseño y perfilado de cejas es el primer paso para el cuidado de tus cejas,
+														<p class="texto">Duracion 30. El diseño y perfilado de cejas es el primer paso para el cuidado de tus cejas,
 																es la base de todo equilibrio en el rostro.Las cejas son un elemento de alto impacto en nosotras,
 																y entendiendo que cada ceja es unica , nuestros diseños estan basados en nuestra tecnica Infinite Desing, 
 																sumado a tu estilo y estructura de cejas, logramos crear ese diseño perfecto solo para vos!.</p>
@@ -107,10 +106,10 @@
 					<div class="col mb-4">
 						<meta name="keywords" content="alisado de cejas, cejas, lifting de cejas">
 						<div class="card">
-							<img class="grid__imagen--hover" class="card-img-top" src="assets/img/lifting de cejas.jpg" alt="Card image cap2">
-							<div class="card-body" class="texto__formato">
-								<h5 class="servicios__card--texto" > <strong> Alisado de cejas </strong></h5>
-								<p class="servicios__card--subTexto">Duracion: 30min.</p>
+							<img class="card__imagen card-img-top" src="../assets/img/lifting de cejas.jpg" alt="Card image cap2">
+							<div class="card-body texto">
+								<h5 class="card-textoPrimario" > <strong> Alisado de cejas </strong></h5>
+								<p class="card-textoSecundario">Duracion: 30min.</p>
 								<!-- Button trigger modal -->
 								<button type="button" class="btn  btn-outline-dark" data-bs-toggle="modal" data-bs-target="#alisadoCejas">
 									Leer mas
@@ -121,13 +120,13 @@
 									<div class="modal-dialog" role="document">
 	  									<div class="modal-content">
 											<div class="modal-header">
-		 										<h4 class="titulo__formato" id="exampleModalLabel"><strong>Alisado de cejas </strong></h4>
+		 										<h4 class="card-textoPrimario" id="exampleModalLabel"><strong>Alisado de cejas </strong></h4>
 		  										<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 											</div>
 											<div class="modal-body">
 												<div class="alert alert-sucess">
 													<div> 
-														<p class="texto__formato">Duracion 30 min. Es el procedimiento de alisado del vello de las cejas enruladas,
+														<p class="texto">Duracion 30 min. Es el procedimiento de alisado del vello de las cejas enruladas,
 																con remolinos u orientación inadecuada en el crecimiento.</p>
 														<div style="text-align: center;">
 															<iframe src="https://www.youtube.com/embed/_GMDNOm0C9w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
@@ -149,10 +148,10 @@
 					<div class="col mb-4">
 						<meta name="keywords" content="microblading, cejas">
 						<div class="card">
-							<img class="grid__imagen--hover" class="card-img-top" src="assets/img/microblading .jpg" alt="Card image cap3">
+							<img class="card__imagen card-img-top" src="../assets/img/microblading .jpg" alt="Card image cap3">
 							<div class="card-body">
-								<h5 class="servicios__card--texto" class="texto__formato"> <strong> Microblading </strong></h5>
-								<p class="servicios__card--subTexto">Duracion: 240min.</p>
+								<h5 class="card-textoPrimario texto"> <strong> Microblading </strong></h5>
+								<p class="card-textoSecundario">Duracion: 240min.</p>
 								<!-- Button trigger modal -->
 								<button type="button" class="btn  btn-outline-dark" data-bs-toggle="modal" data-bs-target="#microblading">
 									Leer mas
@@ -163,13 +162,13 @@
 									<div class="modal-dialog" role="document">
 	  									<div class="modal-content">
 											<div class="modal-header">
-		 										<h4 class="titulo__formato" id="exampleModalLabel"><strong>Microblading</strong></h4>
+		 										<h4 class="card-textoPrimario" id="exampleModalLabel"><strong>Microblading</strong></h4>
 		  										<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 											</div>
 											<div class="modal-body">
 												<div class="alert alert-sucess">
 													<div> 
-														<p class="texto__formato">Duracion 240 min. EL Microblading se basa en una técnica muy antigua y de origen japonés, 
+														<p class="texto">Duracion 240 min. EL Microblading se basa en una técnica muy antigua y de origen japonés, 
 															de reciente aparición en su modalidad actual, es elegida por la gran  definición  que se obtiene en   la simulación  de
 															 vellos de las cejas de manera muy natural, utilizando la técnica 3D.Esta técnica es superficial y consiste en la 
 															 implantación del pigmento en la epidermis (capa superficial de la piel)  obteniendo el aspecto  natural  sin evidenciar o  
@@ -178,7 +177,7 @@
 															 totalmente  descartable  se utiliza un por cada persona, No requiere de mantenimientos, solo de un control a los 20 y 30  
 															 días posteriores..</p>
 														<div style="text-align: center;">
-															<iframe class="video__posicion" src="https://www.youtube.com/embed/0cMRMGIEa94" 
+															<iframe src="https://www.youtube.com/embed/0cMRMGIEa94" 
 															frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 														</div>
 													</div>
@@ -197,10 +196,10 @@
 					<div class="col mb-4">
 						<meta name="keywords" content="tintura, cejas, pestañas">
 						<div class="card">
-							<img class="grid__imagen--hover" class="card-img-top" src="assets/img/tintura de cejas.jpg" alt="Card image cap4">
+							<img class="card__imagen card-img-top" src="../assets/img/tintura de cejas.jpg" alt="Card image cap4">
 							<div class="card-body">
-								<h5 class="servicios__card--texto">	<strong> Tintura de cejas </strong></h5>
-								<p class="servicios__card--subTexto">Duracion: 30min.</p>
+								<h5 class="card-textoPrimario">	<strong> Tintura de cejas </strong></h5>
+								<p class="card-textoSecundario">Duracion: 30min.</p>
 								<!-- Button trigger modal -->
 								<button type="button" class="btn  btn-outline-dark" data-bs-toggle="modal" data-bs-target="#tinturaCejas">
 									Leer mas
@@ -211,16 +210,16 @@
 									<div class="modal-dialog" role="document">
 	  									<div class="modal-content">
 											<div class="modal-header">
-		 										<h4 class="titulo__formato" id="exampleModalLabel"><strong>Tintura de cejas</strong></h4>
+		 										<h4 class="card-textoPrimario" id="exampleModalLabel"><strong>Tintura de cejas</strong></h4>
 		  										<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 											</div>
 											<div class="modal-body">
 												<div class="alert alert-sucess">
 													<div> 
-														<p class="texto__formato">Duracion 30 min. El tinte de cejas hace que tus,cejas parezcan más espesas y oscuras, pero no cambia la forma. También hace que parezcan más pobladas si tienes poco
+														<p class="texto">Duracion 30 min. El tinte de cejas hace que tus,cejas parezcan más espesas y oscuras, pero no cambia la forma. También hace que parezcan más pobladas si tienes poco
 															pelo. Ideal si quieres despedirte del lápiz de cejas por una temporada!</p>
 														<div style="text-align: center;">
-															<iframe class="video__posicion" src="https://www.youtube.com/embed/8kXmQls6ItA" frameborder="0" 
+															<iframe src="https://www.youtube.com/embed/8kXmQls6ItA" frameborder="0" 
 															allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 														</div>
 													</div>
@@ -239,10 +238,10 @@
 					<div class="col mb-4">
 						<meta name="keywords" content="ombre, cejas">
 						<div class="card">
-							<img class="grid__imagen--hover" class="card-img-top" src="assets/img/ombre brows.jpg" alt="Card image cap5">
+							<img class="card__imagen card-img-top" src="../assets/img/ombre brows.jpg" alt="Card image cap5">
 							<div class="card-body">	
-								<h5 class="servicios__card--texto"> <strong> Ombre de cejas</strong></h5>
-								<p class="servicios__card--subTexto">Duracion: 150min.</p>
+								<h5 class="card-textoPrimario"> <strong> Ombre de cejas</strong></h5>
+								<p class="card-textoSecundario">Duracion: 150min.</p>
 								<!-- Button trigger modal -->
 								<button type="button" class="btn  btn-outline-dark" data-bs-toggle="modal" data-bs-target="#OmbreCejas">
 									Leer mas
@@ -253,18 +252,18 @@
 									<div class="modal-dialog" role="document">
 	  									<div class="modal-content">
 											<div class="modal-header">
-		 										<h4 class="titulo__formato" id="exampleModalLabel"><strong>Ombre de cejas</strong></h4>
+		 										<h4 class="card-textoPrimario" id="exampleModalLabel"><strong>Ombre de cejas</strong></h4>
 		  										<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 											</div>
 											<div class="modal-body">
 												<div class="alert alert-sucess">
 													<div> 
-														<p class="texto__formato">Duracion 150 min.Ombre Brows : es una técnica de efecto polvo, que aporta definición y profundidad a las cejas logrando una naturalidad casi absoluta.
+														<p class="texto">Duracion 150 min.Ombre Brows : es una técnica de efecto polvo, que aporta definición y profundidad a las cejas logrando una naturalidad casi absoluta.
 															Resulta exitoso en todo tipo de pieles, pero está indicado principalmente para pieles oleosas, cicatrices, cejas poco pobladas o también para reconstruir cejas
 															en combinación con el microblading. Se realiza con dermografo, trabajando así en forma dérmica, esto hace que la durabilidad sea más prolongada en todo tipo de 
 															piel De 12 a 24 meses aproximadamente.</p>
 														<div style="text-align: center;">
-															<iframe class="video__posicion" src="https://www.youtube.com/embed/iM4TNowizmM" frameborder="0" allow="accelerometer;
+															<iframe src="https://www.youtube.com/embed/iM4TNowizmM" frameborder="0" allow="accelerometer;
 					 										autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 														</div>
 													</div>
@@ -283,10 +282,10 @@
 					<div class="col mb-4">
 						<meta name="keywords" content="extensiones, pestañas, pxp">
 						<div class="card">
-							<img  class="grid__imagen--hover" class="card-img-top" src="assets/img/extension de pestañas.jpg" alt="Card image cap4">
+							<img  class="card__imagen card-img-top" src="../assets/img/extension de pestañas.jpg" alt="Card image cap4">
 							<div class="card-body">
-								<h5 class="servicios__card--texto"> <strong> Extensiones de pestañas</strong></h5>
-								<p class="servicios__card--subTexto">Duracion: 90min.</p>
+								<h5 class="card-textoPrimario"> <strong> Extensiones de pestañas</strong></h5>
+								<p class="card-textoSecundario">Duracion: 90min.</p>
 								<!-- Button trigger modal -->
 								<button type="button" class="btn  btn-outline-dark" data-bs-toggle="modal" data-bs-target="#extensionPestañas">
 									Leer mas
@@ -297,16 +296,16 @@
 									<div class="modal-dialog" role="document">
 	  									<div class="modal-content">
 											<div class="modal-header">
-		 										<h4 class="titulo__formato" id="exampleModalLabel"><strong>Extensiones de pestañas</strong></h4>
+		 										<h4 class="card-textoPrimario" id="exampleModalLabel"><strong>Extensiones de pestañas</strong></h4>
 		  										<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 											</div>
 											<div class="modal-body">
 												<div class="alert alert-sucess">
 													<div> 
-														<p class="texto__formato">Duracion 90 min. Consiste en aplicar 2 pestañas muy finas por pestaña natural... Las pestañas no pasan desapercibidas. se aplican entre entre 180 y 200 extensiones.
+														<p class="texto">Duracion 90 min. Consiste en aplicar 2 pestañas muy finas por pestaña natural... Las pestañas no pasan desapercibidas. se aplican entre entre 180 y 200 extensiones.
 															, respetando el tiempo de crecimiento de la pestaña natural service cada 21 dias.</p>
 														<div style="text-align: center;">
-															<iframe class="video__posicion" src="https://www.youtube.com/embed/N4c8AGcccXE" frameborder="0" allow="accelerometer; 
+															<iframe src="https://www.youtube.com/embed/N4c8AGcccXE" frameborder="0" allow="accelerometer; 
 															autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 														</div>
 													</div>
@@ -325,10 +324,10 @@
 					<div class="col mb-4">
 						<meta name="keywords" content="extraccion, extensiones, pestañas">
 						<div class="card">
-							<img class="grid__imagen--hover" class="card-img-top"  src="assets/img/extraccion de extensiones.jpg" alt="Card image cap4">
+							<img class="card__imagen card-img-top"  src="../assets/img/extraccion de extensiones.jpg" alt="Card image cap4">
 							<div class="card-body">
-								<h5 class="servicios__card--texto"> <strong>Extraccion de extenciones</strong></h5>
-								<p class="servicios__card--subTexto">Duracion: 20min.</p>
+								<h5 class="card-textoPrimario"> <strong>Extraccion de extenciones</strong></h5>
+								<p class="card-textoSecundario">Duracion: 20min.</p>
 								<!-- Button trigger modal -->
 								<button type="button" class="btn  btn-outline-dark" data-bs-toggle="modal" data-bs-target="#extraccionExtensiones">
 									Leer mas
@@ -339,15 +338,15 @@
 									<div class="modal-dialog" role="document">
 	  									<div class="modal-content">
 											<div class="modal-header">
-		 										<h4 class="titulo__formato" id="exampleModalLabel"><strong>Extraccion de extenciones</strong></h4>
+		 										<h4 class="card-textoPrimario" id="exampleModalLabel"><strong>Extraccion de extenciones</strong></h4>
 		  										<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 											</div>
 											<div class="modal-body">
 												<div class="alert alert-sucess">
 													<div> 
-														<p class="texto__formato">Duracion 20 min. Consiste en extraer la aplicacion de extensiones de pestañas</p>
+														<p class="texto">Duracion 20 min. Consiste en extraer la aplicacion de extensiones de pestañas</p>
 														<div style="text-align: center;">
-															<iframe  class="video__posicion" src="https://www.youtube.com/embed/_eKPxXO01ls" frameborder="0" allow="accelerometer; 
+															<iframe src="https://www.youtube.com/embed/_eKPxXO01ls" frameborder="0" allow="accelerometer; 
 															autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 														</div>
 													</div>
@@ -366,10 +365,10 @@
 					<div class="col mb-4">
 						<meta name="keywords" content="permanente, pestañas">
 						<div class="card">
-							<img class="grid__imagen--hover" class="card-img-top" src="assets/img/permanente de pestañas.jpg" alt="Card image cap6">
+							<img class="card__imagen card-img-top" src="../assets/img/permanente de pestañas.jpg" alt="Card image cap6">
 							<div class="card-body">
-								<h5 class="servicios__card--texto"><strong>Permanente de pestañas</strong></h5>
-								<p class="servicios__card--subTexto">Duracion: 30min.</p>
+								<h5 class="card-textoPrimario"><strong>Permanente de pestañas</strong></h5>
+								<p class="card-textoSecundario">Duracion: 30min.</p>
 								<!-- Button trigger modal -->
 								<button type="button" class="btn  btn-outline-dark" data-bs-toggle="modal" data-bs-target="#permanentePestañas">
 									Leer mas
@@ -380,16 +379,16 @@
 									<div class="modal-dialog" role="document">
 	  									<div class="modal-content">
 											<div class="modal-header">
-		 										<h4 class="titulo__formato" id="exampleModalLabel"><strong>Permanente de pestañas</strong></h4>
+		 										<h4 class="card-textoPrimario" id="exampleModalLabel"><strong>Permanente de pestañas</strong></h4>
 		  										<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 											</div>
 											<div class="modal-body">
 												<div class="alert alert-sucess">
 													<div> 
-														<p class="texto__formato">Duracion 45 min. La permanente de pestañas permite rizar la pestaña natural de forma que realzamos nuestra mirada.
+														<p class="texto">Duracion 45 min. La permanente de pestañas permite rizar la pestaña natural de forma que realzamos nuestra mirada.
 															La curvatura del rizo dependerá de la longitud de la pestaña y del efecto que deseemos conseguir.</p>
 														<div style="text-align: center;">
-															<iframe class="video__posicion" src="https://www.youtube.com/embed/N4c8AGcccXE" frameborder="0" allow="accelerometer; 
+															<iframe src="https://www.youtube.com/embed/N4c8AGcccXE" frameborder="0" allow="accelerometer; 
 															autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 														</div>
 													</div>
@@ -408,10 +407,10 @@
 					<div class="col mb-4">
 						<meta name="keywords" content="lifting, pestañas">
 						<div class="card">
-							<img  class="grid__imagen--hover" class="card-img-top" src="assets/img/lifting de pestañas.jpg" alt="Card image cap7">
+							<img  class="card__imagen card-img-top" src="../assets/img/lifting de pestañas.jpg" alt="Card image cap7">
 							<div class="card-body">
-								<h5 class="servicios__card--texto"><strong>Lifting para pestañas</strong></h5>
-								<p class="servicios__card--subTexto">Duracion: 45min.</p>
+								<h5 class="card-textoPrimario"><strong>Lifting para pestañas</strong></h5>
+								<p class="card-textoSecundario">Duracion: 45min.</p>
 								<!-- Button trigger modal -->
 								<button type="button" class="btn  btn-outline-dark" data-bs-toggle="modal" data-bs-target="#liftingPestañas">
 									Leer mas
@@ -422,13 +421,13 @@
 									<div class="modal-dialog" role="document">
 	  									<div class="modal-content">
 											<div class="modal-header">
-		 										<h4 class="titulo__formato" id="exampleModalLabel"><strong>Lifting de pestañas</strong></h4>
+		 										<h4 class="card-textoPrimario" id="exampleModalLabel"><strong>Lifting de pestañas</strong></h4>
 		  										<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 											</div>
 											<div class="modal-body">
 												<div class="alert alert-sucess">
 													<div> 
-														<p class="texto__formato">Duracion 45 min. Este es un tratamiento ideal para elevar tus pestañas desde la raíz de manera natural proporcionando 
+														<p class="texto">Duracion 45 min. Este es un tratamiento ideal para elevar tus pestañas desde la raíz de manera natural proporcionando 
 															una mirada más estilizada y sofisticada.</p>
 														<div style="text-align: center;">
 															<iframe src="https://www.youtube.com/embed/73pJ7l-cf7s" frameborder="0" allow="accelerometer; autoplay;
@@ -450,10 +449,10 @@
 					<div class="col mb-4">
 						<meta name="keywords" content="tintura, cejas, pestañas">
 						<div class="card">
-							<img class="grid__imagen--hover" class="card-img-top" src="assets/img/tintura de pestañas.jpg" alt="Card image cap8">
+							<img class="card__imagen card-img-top" src="../assets/img/tintura de pestañas.jpg" alt="Card image cap8">
 							<div class="card-body">
-								<h5 class="servicios__card--texto"> <strong> Tintura de pestañas</strong></h5>
-								<p class="servicios__card--subTexto">Duracion: 45min</p>
+								<h5 class="card-textoPrimario"> <strong> Tintura de pestañas</strong></h5>
+								<p class="card-textoSecundario">Duracion: 45min</p>
 								<!-- Button trigger modal -->
 								<button type="button" class="btn  btn-outline-dark" data-bs-toggle="modal" data-bs-target="#tinturaPestañas">
 									Leer mas
@@ -464,13 +463,13 @@
 									<div class="modal-dialog" role="document">
 	  									<div class="modal-content">
 											<div class="modal-header">
-		 										<h4 class="titulo__formato" id="exampleModalLabel"><strong>Tintura de pestañas</strong></h4>
+		 										<h4 class="card-textoPrimario" id="exampleModalLabel"><strong>Tintura de pestañas</strong></h4>
 		  										<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 											</div>
 											<div class="modal-body">
 												<div class="alert alert-sucess">
 													<div> 
-														<p class="texto__formato">Duracion 45 min. Dale color a tus pestañas y olvidate de maquillarlas todos los días! Ideal para la playa y la pileta!</p>
+														<p class="texto">Duracion 45 min. Dale color a tus pestañas y olvidate de maquillarlas todos los días! Ideal para la playa y la pileta!</p>
 														<div style="text-align: center;">
 															<iframe src="https://www.youtube.com/embed/OY7rCa3aqM0" frameborder="0" allow="accelerometer;
 					 										autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -492,13 +491,11 @@
 		</section>
 
 		<!--PIE DE PAGINA-->
-		<footer class="footer" class="container"> 
+		<footer class="footer"> 
 			<ul>
-				<li><a href="https://www.facebook.com/"><img src= "assets/img/facebook.png"></a></li>
-				<li><a href="https://twitter.com/"><img src="assets/img/twitter.png"></a></li>
-				<li><a href="https://instagram.com/"><img src="assets/img/instagram.png"></a></li>
-				<li><a herf="https://github.com/yaciCastro/ProyectoCoder"><img src="assets/img/github.png" > </a></li>
-				<li><a herf="https://www.youtube.com/?gl=AR&hl=es-419"><img src="assets/img/youtube.png" > </a></li>
+				<li><a href="https://www.facebook.com/"><img src= "../assets/img/facebook.png"></a></li>
+				<li><a href="https://twitter.com/"><img src="../assets/img/twitter.png"></a></li>
+				<li><a href="https://instagram.com/"><img src="../assets/img/instagram.png"></a></li>
 			</ul>		
 		</footer>
 		

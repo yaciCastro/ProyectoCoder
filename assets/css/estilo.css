@@ -15,42 +15,32 @@ footer ul {
   padding: 10px;
   margin-top: 10px; }
 
-.titulo__formato {
+.titulo {
   display: flex;
   justify-content: center;
   color: #B336A6;
   font-family: 'Rajdhani', sans-serif;
   margin: 30px; }
 
-
-.navBar__titulo--formato {
+.navBar__titulo {
   color: #B336A6;
   font-family: 'Rajdhani', sans-serif;
   font-size: 23px; }
 
-.imagen__posicion {
-  float: left;
-  padding: 20px;
-  margin: 20px; }
-
-.texto__formato {
+.texto {
   color: #B336A6;
   font-family: 'Rajdhani', sans-serif;
   font-size: 27px;
   text-align: justify;}
 
-.titulo__secundario--formato nav ul li a {
-  border-color: #B336A6;
-  font-family: 'Rajdhani', sans-serif; }
-
-.formulario__formato--texto {
+.formulario {
   color: #B336A6;
   font-family: 'Rajdhani', sans-serif;
   font-size: 20px;
   margin: 10px;
 }
  
-.section__grid--card {
+.grid__cards {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: 2, 1fr;
@@ -59,57 +49,49 @@ footer ul {
   font-family: 'Rajdhani', sans-serif;
   font-size: 30px; }
   @media (max-width: 768px) {
-    .section__grid--card {
+    .grid__cards {
       display: grid;
       grid-template-columns: repeat(1, 1fr);
       grid-template-rows: 1, 1fr; } }
   @media (min-width: 768px) and (max-width: 992px) {
-    .section__grid--card {
+    .grid__cards {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       grid-template-rows: repeat(2, 1fr); } }
   @media (min-width: 992px) and (max-width: 1200px) {
-    .section__grid--card {
+    .grid__cards {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       grid-template-rows: repeat(3, 1fr); } }
 
-.grid__imagen--hover:hover {
+.card__imagen:hover {
   filter: opacity(0.5); }
 
-.servicios__card--texto{
+.card-textoPrimario{
   color: #B336A6;
   font-family: 'Rajdhani', sans-serif;
   font-size: 20px;
 }
 
-.servicios__card--subTexto{
+.card-textoSecundario{
   color: #B336A6;
   font-family: 'Rajdhani', sans-serif;
   font-size: 17px;
 }
 
-.formulario__posicion {
-  display: flex;
-  justify-content: center;
-}
-
-.carusel__producto--descripcion{
+.producto-texto{
   color: #B336A6;
   font-family: 'Rajdhani', sans-serif;
   font-size: 19px
 }
 
-.carrusel__produtco--precio{
+.producto-precio{
   color: #B336A6;
   font-family: 'Rajdhani', sans-serif;
   font-size: 22px
 }
 
-.carusel__posicion{
+.producto-posicion{
   display: flex;
   justify-content: center;
 }
-
-.footer__color{
-  background-color: #FDD2F6; }
