@@ -1,11 +1,9 @@
 .grid-cards{
-
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: (2, 1fr);
-    color: #B336A6;
+    color: $color_pink;
     align-content: center;
-    font-family: 'Rajdhani', sans-serif;
     font-size: 30px;
 
 

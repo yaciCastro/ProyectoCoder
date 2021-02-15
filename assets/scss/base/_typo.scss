@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Rajdhani&family=Roboto&display=swap');
+
+*{
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.titulo{    
+    display: flex;
+    justify-content: center;
+    color: $color_pink;
+    margin: 30px;
+}
+
+.texto{
+    color: $color_pink;
+    font-size: 27px;
+    text-align: justify;
+    margin: 10px;
+}
