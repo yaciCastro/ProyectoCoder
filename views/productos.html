@@ -1,25 +1,33 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Cute.Lashes.Eyebrows</title>
-	<link rel="icon" type="text/css" href="../assets/img/logo.icon">
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Anton&family=Rajdhani&family=Roboto&display=swap" rel="stylesheet">
-	<!-- MIS ESTILOS CSS -->
-	<link rel="stylesheet" type="text/css" href="../assets/css/estilo.css">
-	<!--BOOTSTRAP-->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-	<meta name= "descripcion" content= "Ofrecemos productos y servicios de cuidado de cejas y pestañas">
-</head>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="keywords" content="pestañas, cejas, perfilado, tintura, tinte de cejas, tintura de pestañas,
+					permamente de pestañas, permanente de cejas, permanente, lifting, laminado, aguja, micropigmentacion,
+					film, microblading">
+		<meta name= "descripcion" content= "Ofrecemos productos y servicios de cuidado de cejas y pestañas">
+		<title>Cute.Lashes.Eyebrows</title>
+		<link rel="icon" type="text/css" href="../assets/img/logo.icon">
+
+		<!-- MIS ESTILOS CSS -->
+		<link rel="stylesheet" type="text/css" href="../assets/css/styles.css">
+
+		<!--BOOTSTRAP-->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+		<!--WOW.CSS (ANIMACIONES)-->
+		<link
+		rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+	</head>
 	<body>
 		
 		<!--LOGO-->
 		<header>
-			<meta name="keywords" content="pestañas, cejas">
 			<div>
-				<h1 class="titulo"><strong>
+				<h1 class="titulo animate__animated animate__fadeInLeft"><strong>
 					<img src= "../assets/img/logo.png" width="50px" >   	
 					Cute.Lashes.Eyebrows
 				</strong></h1>
@@ -36,18 +44,18 @@
 			</button>
 		  
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<ul class="navbar-nav mr-auto" >
-					<li class="nav-item">
-						<a class="nav-link" href="../index.html"> <span class="sr-only">(current)</span><p  class="navBar__titulo"><strong>Inicio </strong></p></a>
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item navbar-hover">
+						<a class="nav-link " href="../index.html"> <span class="sr-only">(current)</span><p  class="navbar-titulo"><strong>Inicio </strong></p></a>
 					</li>
-					<li class="nav-item">
-				  		<a class="nav-link" href="servicios.html"> <p class="navBar__titulo"><strong>Servicios</strong></p></a>
+					<li class="nav-item navbar-hover">
+				  		<a class="nav-link" href="servicios.html"> <p class="navbar-titulo"><strong>Servicios</strong></p></a>
 					</li>
-					<li class="nav-item">
-						<a class="nav-link"  href="productos.html"> <p class="navBar__titulo"><strong>Productos </strong></p></a>
+					<li class="nav-item active navbar-hover">
+						<a class="nav-link"  href="productos.html"> <p class="navbar-titulo"><strong>Productos</strong></p></a>
 					</li>
-					<li class="nav-item">
-						<a class="nav-link"  href="contacto.html"> <p class="navBar__titulo"><strong>Contacto </strong></p></a>
+					<li class="nav-item navbar-hover">
+						<a class="nav-link"  href="contacto.html"> <p class="navbar-titulo"><strong>Contacto </strong></p></a>
 					</li>
 				</ul>
 			</div>
@@ -55,108 +63,110 @@
 
 		<!--CONTENIDO-->
 		<section>
-			<h2 class="titulo" ><strong> PRODUCTOS</strong></h2>
-			<meta name="keywords" content="cejas, perfilado de cejas">
+			<h2 class="titulo"><strong>PRODUCTOS</strong></h2>
+				<!--Carousel Wrapper-->
+				<div id="carouselExampleIndicator" class="carousel slide carousel-multi-item carousel-color" data-ride="carousel">
+					
+					<!--Indicators-->
+					<ol class="carousel-indicators">
+						<li data-target="#carouselExampleIndicator" data-slide-to="0" class="active"></li>
+						<li data-target="#carouselExampleIndicator" data-slide-to="1">/li>
+					</ol>
+					<!--/.Indicators-->
 			
-			<div class="producto-posicion">
-				<div class="row blog">
-					<div class="col-md-12">
-						<div id="blogCarousel" class="carousel slide" data-ride="carousel">
-
-							<ol class="carousel-indicators">
-								<li data-target="#blogCarousel" data-slide-to="0" class="active"></li>
-								<li data-target="#blogCarousel" data-slide-to="1"></li>
-							</ol>
-
-							<!-- CARRUSEL ITEMS -->
-							<div class="carousel-inner">
-								<div class="carousel-item active">
-									<div class="row">
-										<div class="col-md-3">
-											<a>
-												<img src="../assets/img/perfiladoDeCejas.jpg" alt="Image" style="max-width:100%;">
-												<p class="producto-texto"> Perfiladores de cejas</p>
-												<p class="producto-precio"><strong>150$</strong></p>
-												<button type="button" class="btn  btn-outline-dark"> Comprar </button>
-											</a>
-										</div>
-										<meta name="keywords" content="cejas, tintura, tinte de cejas, tintura de pestañas, pestañas">
-										<div class="col-md-3">
-											<a>
-												<img src="../assets/img/kitTinteCejasYPestañas.jpg" alt="Image" style="max-width:100%;">
-												<p class="producto-texto">Kit tintura de cejas y pestañas</p>
-												<p class="producto-precio"><strong>900$</strong></p>
-												<button type="button" class="btn  btn-outline-dark"> Comprar </button>
-											</a>
-										</div>
-										<meta name="keywords" content="permamente de pestañas, permanente de cejas, permanente, cejas, pestañas">
-										<div class="col-md-3">
-											<a>
-												<img src="../assets/img/kitPermanenteKitLash.jpg" alt="Image" style="max-width:100%;">
-												<p class="producto-texto">Kit Permanente + Kit tinte</p>
-												<p class="producto-precio"><strong>1,970$</strong></p>
-												<button type="button" class="btn  btn-outline-dark"> Comprar </button>
-											</a>
-										</div>
-										<meta name="keywords" content="lifting, cejas, pestañas">
-										<div class="col-md-3">
-											<a>
-												<img src="../assets/img/kit3.jpg" alt="Image" style="max-width:100%;">
-												<p class="producto-texto">Kit Lifting de pestañas</p>
-												<p class="producto-precio"><strong>2,600$</strong></p>
-												<button type="button" class="btn  btn-outline-dark"> Comprar </button>
-											</a>
-										</div>
+					<!--Slides-->
+				<div class="carousel-inner container" role="listbox">
+					<div class="carousel-item active">
+						<div class="row">
+							<div class="col-md-4">
+								<div class="card mb-2">
+									<meta name="keywords" content="pinzas, navina, tornasolada">
+									<div class="card-body">
+										<img class="card-img-top" src="../assets/img/pinzasNavina.jpg" alt="pinzasNavina" style="max-width:100%;">
+										<p class="producto__texto">Pinzas Navina tornazoladas</p>
+										<p class="producto__precio"><strong>650$</strong></p>
+										<button type="button" class="btn  btn-outline-dark"> Comprar </button>
 									</div>
 								</div>
-
-
-								<div class="carousel-item">
-									<div class="row">
-										<meta name="keywords" content="laminado, cejas">
-										<div class="col-md-3">
-											<a>
-												<img src="../assets/img/kitLaminadoCejas.jpg" alt="Image" style="max-width:100%;">
-												<p class="producto-texto">Kit laminado de cejas Alisado</p>
-												<p class="producto-precio"><strong> 1,360$</strong></p>
-												<button type="button" class="btn  btn-outline-dark"> Comprar </button>
-											</a>
-										</div>
-										<meta name="keywords" content="aguja, cejas, micropigmentacion">
-										<div class="col-md-3">
-											<a>
-												<img src="../assets/img/agujaMicropigmentacion.jpg" alt="Image" style="max-width:100%;">
-												<p class="producto-texto">Micropigmenta aguja</p>
-												<p class="producto-precio"><strong>1,120$</strong></p>
-												<button type="button" class="btn  btn-outline-dark"> Comprar </button>
-											</a>
-										</div>
-										<meta name="keywords" content="film, cejas">
-										<div class="col-md-3">
-											<a>
-												<img src="../assets/img/filmCejas.jpg" alt="Image" style="max-width:100%;">
-												<p class="producto-texto">Rollo film mini microblading</p>
-												<p class="producto-precio"><strong>200$</strong></p>
-												<button type="button" class="btn  btn-outline-dark"> Comprar </button>
-											</a>
-										</div>
-										<meta name="keywords" content="Aguja, micropigmentacion, cejas, microblading">
-										<div class="col-md-3">
-											<a>
-												<img src="../assets/img/pinzasNavina.jpg" alt="Image" style="max-width:100%;">
-												<p class="producto-texto">Pinzas Navina tornazoladas</p>
-												<p class="producto-precio"><strong>650$</strong></p>
-												<button type="button" class="btn  btn-outline-dark"> Comprar </button>
-											</a>
-										</div>
+							</div>
+				
+							<div class="col-md-4 clearfix d-none d-md-block">
+								<div class="card mb-2">
+									<meta name="keywords" content="film, cejas">
+									<div class="card-body">
+										<img class="card-img-top" src="../assets/img/filmCejas.jpg" alt="filmCejas" style="max-width:100%;">
+										<p class="producto__texto">Rollo film mini microblading</p>
+										<p class="producto__precio"><strong>200$</strong></p>
+										<button type="button" class="btn  btn-outline-dark"> Comprar </button>
+									</div>
+								</div>
+							</div>
+				
+							<div class="col-md-4 clearfix d-none d-md-block">
+								<div class="card mb-2">
+									<meta name="keywords" content="Micropigmentacion, aguja, microblading">
+									<div class="card-body">
+										<img class="card-img-top"  src="../assets/img/agujaMicropigmentacion.jpg" alt="Microblading" style="max-width:100%;">
+										<p class="producto__texto">Micropigmentacion cejas aguja</p>
+										<p class="producto__precio"><strong>1,120$</strong></p>
+										<button type="button" class="btn  btn-outline-dark"> Comprar </button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--Second slide-->
+					<div class="carousel-item">
+						<div class="row">
+							<div class="col-md-4">
+								<div class="card mb-2">
+									<meta name="keywords" content="kit, laminado, cejas">
+									<div class="card-body">
+										<img class="card-img-top" src="../assets/img/kitLaminadoCejas.jpg" alt="kitLaminadoCejas" style="max-width:100%;">
+										<p class="producto__texto">Kit laminado de cejas Alisado</p>
+										<p class="producto__precio"><strong> 1,360$</strong></p>
+										<button type="button" class="btn  btn-outline-dark"> Comprar </button>
+									</div>
+								</div>
+							</div>
+							
+							<div class="col-md-4 clearfix d-none d-md-block">
+								<div class="card mb-2">
+									<meta name="keywords" content="lifting, pestañas">
+									<div class="card-body">
+										<img class="card-img-top" src="../assets/img/kit3.jpg" alt="Kit lifting pestañas" style="max-width:100%;">
+										<p class="producto__texto">Kit Lifting + permanente + tinte</p>
+										<p class="producto__precio"><strong>2,600$</strong></p>
+										<button type="button" class="btn  btn-outline-dark"> Comprar </button>
+									</div>
+								</div>
+							</div>
+				
+							<div class="col-md-4 clearfix d-none d-md-block">
+								<div class="card mb-2">
+									<meta name="keywords" content="permanente, tinte, kit permanente, cejas, pestañas">
+									<div class="card-body">
+										<img class="card-img-top" src="../assets/img/kitPermanenteKitLash.jpg" alt="kit permanente pestañas" style="max-width:100%;">
+										<p class="producto__texto">Kit Permanente + Kit tinte</p>
+										<p class="producto__precio"><strong>1,970$</strong></p>
+										<button type="button" class="btn  btn-outline-dark"> Comprar </button>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-		</section>
+			<a class="carousel-control-prev carosuel-boton" href="#carouselExampleIndicator" role="button" data-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"><i class="bi bi-arrow-right-square-fill"></i></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="carousel-control-next carosuel-boton" href="#carouselExampleIndicator" role="button" data-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</section>	
+			
+	
 
 		<section>
 			<h2 class="titulo" ><strong> CUIDADO DE LOS PRODUCTOS...</strong></h2>
@@ -172,15 +182,17 @@
 	
 		<footer class="footer"> 
 			<ul>
-				<li><a href="https://www.facebook.com/"><img src= "../assets/img/facebook.png"></a></li>
-				<li><a href="https://twitter.com/"><img src="../assets/img/twitter.png"></a></li>
-				<li><a href="https://instagram.com/"><img src="../assets/img/instagram.png"></a></li>
+				<li><a href="https://www.facebook.com/"><img src= "../assets/img/facebook.svg"></a></li>
+				<li><a href="https://twitter.com/"><img src="../assets/img/twitter.svg"></a></li>
+				<li><a href="https://instagram.com/"><img src="../assets/img/instagram.svg"></a></li>
 			</ul>		
 		</footer>
 	
 		<!--BOOTSTRAP-->
- 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src= ../assets/js/carousel.js></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
  		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+		
 	</body>
 </html>

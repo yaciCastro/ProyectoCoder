@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Rajdhani&family=Roboto&display=swap");
+* {
+  font-family: 'Rajdhani', sans-serif; }
+
+.titulo {
+  display: flex;
+  justify-content: center;
+  color: #B336A6;
+  margin: 25px; }
+
+.texto {
+  color: #B336A6;
+  font-size: 27px;
+  text-align: justify;
+  margin: 10px; }
+
+header div {
+  display: flex;
+  justify-content: center; }
+  header div .titulo {
+    color: #B336A6;
+    margin: 30px; }
+
+footer ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+  background-image: linear-gradient(#FDD2F6, #FFFFFF);
+  padding: 10px;
+  margin-top: 10px; }
+
+.navbar-titulo {
+  color: #B336A6;
+  font-size: 23px; }
+
+.navbar-hover:hover {
+  background-color: #e6b5ec;
+  border-radius: 5px; }
+
+.producto__texto {
+  color: #B336A6;
+  font-size: 19px; }
+
+.producto__precio {
+  color: #B336A6;
+  font-size: 22px; }
+
+.carousel-color {
+  background-color: #d0a8d1;
+  margin-top: 10px; }
+
+.carousel-control-prev,
+.carousel-control-next {
+  bottom: 40px !important; }
+
+.card__imagen:hover {
+  filter: opacity(0.5); }
+
+.card-textoPrimario {
+  color: #B336A6;
+  font-size: 17px;
+  text-align: left; }
+
+.card-textoSecundario {
+  color: #B336A6;
+  font-size: 15px;
+  text-align: left; }
+
+.formulario {
+  color: #B336A6;
+  font-size: 20px;
+  margin: 10px; }
+
+.grid-cards {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 2, 1fr;
+  color: #B336A6;
+  align-content: center;
+  font-size: 30px; }
+  @media (max-width: 768px) {
+    .grid-cards {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: 1, 1fr; } }
+  @media (min-width: 768px) and (max-width: 992px) {
+    .grid-cards {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 1fr); } }
+  @media (min-width: 992px) and (max-width: 1200px) {
+    .grid-cards {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(3, 1fr); } }

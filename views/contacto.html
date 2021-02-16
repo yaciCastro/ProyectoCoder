@@ -1,24 +1,33 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Cute.Lashes.Eyebrows</title>
-	<link rel="icon" type="text/css" href="../assets/img/logo.icon">
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Anton&family=Rajdhani&family=Roboto&display=swap" rel="stylesheet">
-	<!-- MIS ESTILOS CSS -->
-	<link rel="stylesheet" type="text/css" href="../assets/css/estilo.css">
-	<!--BOOTSTRAP-->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-	<meta name= "descripcion" content= "Ofrecemos productos y servicios de cuidado de cejas y pestañas">
-</head>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="keywords" content="pestañas, cejas, perfilado, tintura, tinte de cejas, tintura de pestañas,
+					permamente de pestañas, permanente de cejas, permanente, lifting, laminado, aguja, micropigmentacion,
+					film, microblading">
+		<meta name= "descripcion" content= "Ofrecemos productos y servicios de cuidado de cejas y pestañas">
+		<title>Cute.Lashes.Eyebrows</title>
+		<link rel="icon" type="text/css" href="../assets/img/logo.icon">
+	
+		<!-- MIS ESTILOS CSS -->
+		<link rel="stylesheet" type="text/css" href="../assets/css/styles.css">
+	
+		<!--BOOTSTRAP-->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+		<!--WOW.CSS (ANIMACIONES)-->
+		<link
+		rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+	</head>
 	<body>
 
 		<!--LOGO-->
 		<header>
 			<div>
-				<h1 class="titulo"><strong>
+				<h1 class="titulo animate__animated animate__fadeInLeft"><strong>
 					<img src= "../assets/img/logo.png" width="50px" >   	
 					Cute.Lashes.Eyebrows
 				</strong></h1>
@@ -36,24 +45,24 @@
 		  
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav mr-auto" >
-					<li class="nav-item">
-						<a class="nav-link" href="../index.html"> <span class="sr-only">(current)</span><p  class="navBar__titulo"><strong>Inicio </strong></p></a>
+					<li class="nav-item navbar-hover">
+						<a class="nav-link" href="../index.html"> <span class="sr-only">(current)</span><p  class="navbar-titulo"><strong>Inicio </strong></p></a>
 					</li>
-					<li class="nav-item">
-				  		<a class="nav-link" href="servicios.html"> <p class="navBar__titulo"><strong>Servicios</strong></p></a>
+					<li class="nav-item navbar-hover">
+				  		<a class="nav-link" href="servicios.html"> <p class="navbar-titulo"><strong>Servicios</strong></p></a>
 					</li>
-					<li class="nav-item">
-						<a class="nav-link"  href="productos.html"> <p class="navBar__titulo"><strong>Productos </strong></p></a>
+					<li class="nav-item navbar-hover">
+						<a class="nav-link"  href="productos.html"> <p class="navbar-titulo"><strong>Productos </strong></p></a>
 					</li>
-					<li class="nav-item">
-						<a class="nav-link"  href="contacto.html"> <p class="navBar__titulo"><strong>Contacto </strong></p></a>
+					<li class="nav-item active navbar-hover">
+						<a class="nav-link"  href="contacto.html"> <p class="navbar-titulo"><strong>Contacto </strong></p></a>
 					</li>
 				</ul>
 			</div>
 		</nav>
 
 		<!--CONTENIDO-->
-		<h2 class="titulo"><strong> CONTACTO</stron></h2>
+		<h2 class="titulo"><strong>CONTACTO</stron></h2>
 		<div class="embed-responsive embed-responsive-21by9">
 			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d27235.981154078512!2d-64.20698050000001!3d-31.427964099999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1608760639845!5m2!1ses-419!2sar" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 		</div>
@@ -64,24 +73,24 @@
 				<form>
 					<div class="form-group"> 
 						<label for="nombre" class="formulario">Ingrese su nombre:</label>
-						<input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre">
+						<input type="text" class="form-control" id="nombre" placeholder="Nombre">
 					</div> 
 					<div class="form-group"> 
 						<label for="apellido" class="formulario">Ingrese su apellido:</label>
-						<input type="password" class="form-control" id="clave" name="clave" placeholder="Apellido">
+						<input type="password" class="form-control" id="apellido" placeholder="Apellido">
 					</div> 
 					<div class="form-group"> 
 						<label for="E-mail" class="formulario">Ingrese E-mail:</label>
-						<input type="text" class="form-control" id="nombre" name="nombre" placeholder="E-mail">
+						<input type="text" class="form-control" id="E-mail" placeholder="E-mail">
 					</div> 
 					<div class="form-group"> 
 						<label for="telefono" class="formulario">Ingrese su numero de telefono:</label>
-						<input type="text" class="form-control" id="nombre" name="nombre" placeholder="Telefono">
+						<input type="text" class="form-control" id="telefono" placeholder="Telefono">
 					</div>
 					
 					<div class="form-group">
 						<label for="mensaje" class="formulario">Ingrese su numero de telefono:</label>
-						<textarea class="form-control" id="message" name="message" placeholder="Comentario" rows="7"></textarea>
+						<textarea class="form-control" id="message" placeholder="Comentario" rows="7"></textarea>
 					</div>
 						<button  type="submit" class="btn btn-outline-dark btn-lg">Enviar</button>
 				</form>
@@ -91,9 +100,9 @@
 		<!--FOOTER-->
 		<footer class="footer"> 
 			<ul>
-				<li><a href="https://www.facebook.com/"><img src= "../assets/img/facebook.png"></a></li>
-				<li><a href="https://twitter.com/"><img src="../assets/img/twitter.png"></a></li>
-				<li><a href="https://instagram.com/"><img src="../assets/img/instagram.png"></a></li>
+				<li><a href="https://www.facebook.com/"><img src= "../assets/img/facebook.svg"></a></li>
+				<li><a href="https://twitter.com/"><img src="../assets/img/twitter.svg"></a></li>
+				<li><a href="https://instagram.com/"><img src="../assets/img/instagram.svg"></a></li>
 			</ul>		
 		</footer>
 
